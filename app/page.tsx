@@ -348,13 +348,13 @@ const copy = {
     profile: "Research profile",
     currentText: "JSPS Research Fellow (DC1)",
     currentMeta:
-      "Department of Physics, Graduate School of Science, The University of Tokyo · Ito Laboratory · Tokyo, Japan · Apr 2024–present",
+      "Department of Physics, Graduate School of Science, The University of Tokyo · Ito Laboratory · Tokyo, Japan · Oct 2024–present",
     phd: "Ph.D. program in Physics",
-    phdMeta: "The University of Tokyo · Advisor: Prof. Sosuke Ito · Apr 2024–present",
+    phdMeta: "The University of Tokyo · Advisor: Prof. Sosuke Ito · Oct 2024–present",
     ms: "M.S. in Chemical Physics",
     msMeta: "University of Science and Technology of China · 2024",
     bs: "B.S. in Chemistry",
-    bsMeta: "University of Science and Technology of China",
+    bsMeta: "University of Science and Technology of China · 2021",
     profileText:
       "Theoretical statistical physics; stochastic thermodynamics; intrinsic timescales; stochastic processes and first-passage phenomena; relaxation, response, inference and optimal control; open quantum systems and quantum thermodynamics.",
     cvPublications: "Publications",
