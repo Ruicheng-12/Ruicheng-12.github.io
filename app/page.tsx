@@ -145,7 +145,7 @@ const delayedDissipation: Publication = {
   year: "2026",
   title:
     "Characteristic Oscillations in Frequency-Resolved Heat Dissipation of Linear Time-Delayed Langevin Systems",
-  authors: "Xin Wang, Ruicheng Bao* & Naruo Ohga",
+  authors: "Xin Wang, Ruicheng Bao & Naruo Ohga",
   venue: "Physical Review Research 8, 013039",
   href: "https://doi.org/10.1103/x2dm-9p8m",
 };
@@ -153,7 +153,7 @@ const delayedDissipation: Publication = {
 const lindbladianLearning: Publication = {
   year: "2026",
   title: "Physically Natural Metric-Measure Lindbladian Ensembles and Their Learning Hardness",
-  authors: "Caisheng Cheng* & Ruicheng Bao",
+  authors: "Caisheng Cheng & Ruicheng Bao",
   venue: "arXiv:2601.01806",
   href: "https://arxiv.org/abs/2601.01806",
   note: "Preprint",
