@@ -1,7 +1,8 @@
 \documentclass[10pt,a4paper]{article}
 
 \usepackage[margin=19mm,top=17mm,bottom=18mm]{geometry}
-\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage{microtype}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -10,10 +11,9 @@
 \usepackage{fancyhdr}
 \usepackage{tabularx}
 
-% Latin Modern is included in standard TeX Live and MacTeX installations,
-% making this file portable across local XeLaTeX and Overleaf builds.
-\setmainfont{Latin Modern Roman}
-\setsansfont{Latin Modern Sans}
+% This file deliberately avoids fontspec and system-font lookup.
+% It uses the Latin Modern fonts bundled with standard TeX Live/MacTeX,
+% and therefore compiles directly with XeLaTeX as well as pdfLaTeX.
 
 \definecolor{accent}{HTML}{9C5439}
 \definecolor{muted}{HTML}{5F6866}
@@ -37,7 +37,7 @@
   {\large\bfseries\color{accent}}
   {}{0pt}{}
   [\vspace{0.18em}{\color{rulecolor}\titlerule}]
-\titlespacing*{\section}{0pt}{1.15em}{0.7em}
+\titlespacing*{\section}{0pt}{1.05em}{0.65em}
 
 \titleformat{\subsection}
   {\normalsize\bfseries}
@@ -47,11 +47,11 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
 \setlength{\emergencystretch}{1em}
-\setlist[itemize]{leftmargin=1.15em,itemsep=0.42em,topsep=0.2em,parsep=0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.30em,topsep=0.18em,parsep=0pt}
 
 \newcommand{\entry}[2]{%
-  \begin{tabularx}{\textwidth}{@{}p{0.19\textwidth}X@{}}
-    \color{muted}#1 & #2
+  \begin{tabularx}{\textwidth}[t]{@{}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}X@{}}
+    \strut\color{muted}#1 & \strut#2
   \end{tabularx}\par
 }
 
@@ -70,7 +70,7 @@
 \end{center}
 
 \vspace{0.65em}
-\begin{tabularx}{\textwidth}{@{}X X@{}}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}X@{}}
   Email: \href{mailto:ruicheng@g.ecc.u-tokyo.ac.jp}{ruicheng@g.ecc.u-tokyo.ac.jp} &
   Google Scholar: \href{https://scholar.google.com/citations?user=ZSFCDtUAAAAJ}{Ruicheng Bao} \\
   Webpage: \href{https://ruichengbao.github.io/}{Academic website} &
@@ -83,7 +83,7 @@ Theoretical statistical physicist studying how randomness and intrinsic timescal
 
 \section{Academic Position}
 
-\entry{Apr. 2024--Present}{\textbf{JSPS Research Fellow (DC1)}, Department of Physics, Graduate School of Science, The University of Tokyo\newline
+\entry{Apr. 2025--Present}{\textbf{JSPS Research Fellow (DC1)}, Department of Physics, Graduate School of Science, The University of Tokyo\newline
 Ito Laboratory, Tokyo, Japan}
 
 \section{Education}
@@ -91,13 +91,15 @@ Ito Laboratory, Tokyo, Japan}
 \entry{Oct. 2024--Present}{\textbf{Ph.D. program in Physics}, The University of Tokyo\newline
 Advisor: Prof. Sosuke Ito}
 
-\entry{2024}{\textbf{M.S. in Chemical Physics}, University of Science and Technology of China}
+\entry{2024}{\textbf{M.S. in Chemical Physics}, University of Science and Technology of China\newline
+Advisor: Prof. Zhonghuai Hou}
 
-\entry{2021}{\textbf{B.S. in Chemistry}, University of Science and Technology of China}
+\entry{2021}{\textbf{B.S. in Chemistry}, University of Science and Technology of China\newline
+Advisor: Prof. Zhonghuai Hou}
 
 \section{Publications}
 
-{\footnotesize\color{muted}\textsuperscript{*} Ruicheng Bao is a corresponding author; co-corresponding authors are also marked.}
+{\footnotesize\color{muted}\textsuperscript{*} Corresponding authors.}
 
 \subsection{Unsupervised \& Independent Work}
 
@@ -151,6 +153,7 @@ Advisor: Prof. Sosuke Ito}
 
 \begin{itemize}
   \item Teaching assistance in statistical mechanics and physical chemistry.
+  \item Referee for \emph{Physical Review Letters}, \emph{Physical Review A}, \emph{Physical Review E}, \emph{Journal of Mathematical Physics}, and \emph{Physica A}.
 \end{itemize}
 
 \section{Research Methods}
