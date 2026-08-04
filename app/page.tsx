@@ -546,7 +546,7 @@ export default function Home() {
 
     <ul className="news-list">
       <li>
-        <time>2026</time>
+        <time>2026.02.18</time>
         <p>
           My sole-authored paper,{" "}
           <a
@@ -561,9 +561,9 @@ export default function Home() {
       </li>
 
       <li>
-        <time>18 February, 2025</time>
+        <time>2025.10.09</time>
         <p>
-          Our work on{" "}
+          Our work,{" "}
           <a
             href="https://doi.org/10.1103/g94p-7421"
             target="_blank"
