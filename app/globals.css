@@ -936,3 +936,22 @@ p.event-title {
     gap: 8px;
   }
 }
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 290px;
+  aspect-ratio: 4 / 5;
+  margin: 0 0 32px auto;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 3px;
+}
+
+@media (max-width: 900px) {
+  .profile-photo {
+    grid-column: 1 / -1;
+    max-width: 320px;
+    margin: 0 auto 12px;
+  }
+}
