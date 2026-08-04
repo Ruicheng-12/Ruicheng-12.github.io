@@ -246,6 +246,14 @@ const talks = [
     date: "01 Dec 2025",
   },
   {
+    typeEn: "Contributed talk",
+    typeZh: "口头报告",
+    title: "Accelerating quantum relaxation using temporary coupling",
+    venueEn: "The 8th National Conference on Statistical Physics and Complex Systems, Ningbo University, Ningbo, China",
+    venueZh: "第八届全国统计物理与复杂系统会议 · 宁波大学",
+    date: "02 Jun 2025",
+  },
+  {
     typeEn: "Invited seminar",
     typeZh: "邀请报告",
     title: "An Exact Theory of Nonequilibrium Response to Arbitrarily Strong Perturbations",
@@ -286,6 +294,13 @@ const posters = [
     venueZh: "京都量子热力学及相关主题研讨会，京都大学基研",
     date: "08 Dec 2025",
     href: "https://indico.yukawa.kyoto-u.ac.jp/event/68/page/71-poster-session",
+  },
+  {
+    title: "Response theory for strong perturbations",
+    venueEn: "The 8th National Conference on Statistical Physics and Complex Systems, Ningbo University, Ningbo, China (Excellent poster award)",
+    venueZh: "第八届全国统计物理与复杂系统会议，宁波大学 (优秀海报奖)",
+    date: "01 Aug 2025",
+    href: "https://conf.koushare.com/conf/spcsc2025",
   },
   {
     title: "Universal Trade-Off Relation Between Irreversibility and Intrinsic Timescale in Thermal Relaxation",
