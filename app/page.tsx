@@ -222,12 +222,12 @@ const allPublications = [...independentPublications, ...supervisedPublications].
 const talks = [
   {
     typeEn: "Lightning talk",
-    typeZh: "闪电报告",
-    title: "Initial-State Typicality in Quantum Relaxation",
+    typeZh: "轻型报告",
+    title: "Initial-state typicality in transient OQD with applications to thermal quantum tasks",
     venueEn: "Workshop on Stochastic Thermodynamics VII (WOST VII) · Online",
     venueZh: "第七届随机热力学研讨会（WOST VII）· 线上",
     date: "18–22 May 2026",
-    href: "https://wostmeeting.org/",
+    href: "https://www.youtube.com/watch?v=ULkfx2jxaHU",
   },
   {
     typeEn: "Invited seminar",
@@ -255,7 +255,7 @@ const talks = [
   },
   {
     typeEn: "Lightning talk",
-    typeZh: "闪电报告",
+    typeZh: "轻型报告",
     title: "Dissipation, Intrinsic Timescale and Coarse-Graining in Relaxation Processes",
     venueEn: "Workshop on Stochastic Thermodynamics V (WOST V) · Online",
     venueZh: "第五届随机热力学研讨会（WOST V）· 线上",
@@ -264,7 +264,7 @@ const talks = [
   },
   {
     typeEn: "Contributed talk",
-    typeZh: "会议报告",
+    typeZh: "会议口头报告",
     title: "Universal Trade-Off Between Irreversibility and Intrinsic Timescale in Thermal Relaxation",
     venueEn: "28th International Conference on Statistical Physics (STATPHYS28) · The University of Tokyo, Tokyo, Japan",
     venueZh: "第28届国际统计物理大会（STATPHYS28）· 东京大学，日本东京",
