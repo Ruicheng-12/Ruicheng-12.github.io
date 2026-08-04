@@ -412,7 +412,7 @@ const copy = {
     phd: "物理学博士在读",
     phdMeta: "东京大学 · 导师：Sosuke Ito 教授 · 2024年10月至今",
     ms: "化学物理系 · 硕士",
-    msMeta: "中国科学技术大学 · 2024",
+    msMeta: "中国科学技术大学 · 导师：侯中怀 教授 · 2024",
     bs: "化学物理系 · 学士",
     bsMeta: "中国科学技术大学 · 2021",
     profileText:
@@ -420,7 +420,7 @@ const copy = {
     cvPublications: "论文",
     cvPresentations: "部分学术展示",
     service: "学术活动",
-    serviceText: "担任统计力学与物理化学课程助教。",
+    serviceText: "PRL, PRA, PRE, Journal of Mathematical等期刊的审稿人; \n统计力学与物理化学课程助教。",
     contact: "联系方式",
     lastUpdated: "最后更新于2026年8月",
     language: "EN",
@@ -707,7 +707,7 @@ export default function Home() {
             </section>
             <section className="cv-block">
               <h2>{t.service}</h2>
-              <p className="cv-copy">{t.serviceText}</p>
+              <p className="cv-copy service-text">{t.serviceText}</p>
             </section>
             <section className="cv-block cv-contact">
               <h2>{t.contact}</h2>
