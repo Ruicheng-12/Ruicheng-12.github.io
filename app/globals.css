@@ -943,7 +943,7 @@ p.event-title {
   max-width: 290px;
   aspect-ratio: 4 / 5;
   margin: 0 0 32px auto;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center top;
   border-radius: 3px;
 }
