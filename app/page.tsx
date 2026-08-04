@@ -540,6 +540,44 @@ export default function Home() {
             </aside>
           </section>
 
+          {language === "en" ? (
+  <section className="news-section page-shell">
+    <p className="news-label">News</p>
+
+    <ul className="news-list">
+      <li>
+        <time>2026</time>
+        <p>
+          My sole-authored paper,{" "}
+          <a
+            href="https://doi.org/10.1103/wgr5-lb6b"
+            target="_blank"
+            rel="noreferrer"
+          >
+            “Initial-State Typicality in Quantum Relaxation”
+          </a>
+          , is now online in <em>Physical Review Letters</em>.
+        </p>
+      </li>
+
+      <li>
+        <time>18 February, 2025</time>
+        <p>
+          Our work on{" "}
+          <a
+            href="https://doi.org/10.1103/g94p-7421"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Accelerating Quantum Relaxation via Temporary Reset: A Mpemba-Inspired Approach
+          </a>{" "}
+          appeared in <em>Physical Review Letters</em>.
+        </p>
+      </li>
+    </ul>
+  </section>
+) : null}
+
           <section className="selected-section page-shell">
             <div className="section-heading">
               <p className="section-index">01</p>
