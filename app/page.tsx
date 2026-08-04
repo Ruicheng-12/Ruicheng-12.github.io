@@ -360,7 +360,7 @@ const copy = {
     cvPublications: "Publications",
     cvPresentations: "Selected presentations",
     service: "Academic activities",
-    serviceText: "Teaching assistance in statistical mechanics and physical chemistry.",
+    serviceText: "Referee for Phys. Rev. Lett., Phys. Rev. A, Phys. Rev. E, J. Math. Phys. and Physica A; Teaching assistance in statistical mechanics and physical chemistry.",
     contact: "Contact",
     lastUpdated: "Last updated August 2026",
     language: "中文",
