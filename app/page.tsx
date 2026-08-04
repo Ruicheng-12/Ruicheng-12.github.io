@@ -530,6 +530,12 @@ export default function Home() {
             </div>
 
             <aside className="hero-aside">
+              <img
+                className="profile-photo"
+                src="./images/profile.png"
+                alt="Portrait of Ruicheng Bao"
+              />
+            
               <p>{t.location}</p>
               <div className="interest-block">
                 <h2>{t.interests}</h2>
