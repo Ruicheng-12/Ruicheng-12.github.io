@@ -872,3 +872,67 @@ p.event-title {
 .service-text {
   white-space: pre-line;
 }
+
+.news-section {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-top: 1px solid var(--line);
+}
+
+.news-label {
+  margin: 0;
+  color: var(--accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 24px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.news-list li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.news-list time {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.news-list p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.news-list a,
+.inline-link {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 560px) {
+  .news-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .news-list li {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
