@@ -868,3 +868,7 @@ p.event-title {
     transition-duration: 0.01ms !important;
   }
 }
+
+.service-text {
+  white-space: pre-line;
+}
