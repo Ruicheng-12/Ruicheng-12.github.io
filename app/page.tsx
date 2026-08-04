@@ -296,8 +296,8 @@ const posters = [
     href: "https://indico.yukawa.kyoto-u.ac.jp/event/68/page/71-poster-session",
   },
   {
-    title: "Response theory for strong perturbations",
-    venueEn: "The 8th National Conference on Statistical Physics and Complex Systems, Ningbo University, Ningbo, China (Excellent poster award)",
+    title: "Response theory for strong perturbations (Best poster award)",
+    venueEn: "The 8th National Conference on Statistical Physics and Complex Systems, Ningbo University, Ningbo, China",
     venueZh: "第八届全国统计物理与复杂系统会议，宁波大学 (优秀海报奖)",
     date: "01 Aug 2025",
     href: "https://conf.koushare.com/conf/spcsc2025",
