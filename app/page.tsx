@@ -136,8 +136,8 @@ const hierarchicalTimeArrow: Publication = {
   href: "https://arxiv.org/abs/2604.25749",
   note: "Preprint",
   summary: {
-    en: "As a follow-up to our counting-based irreversibility framework, we extend time-arrow reconstruction from two-time asymmetries to a hierarchy of multi-time correlations. Higher-order correlations reveal irreversibility hidden at lower orders and progressively sharpen thermodynamic inference.",
-    zh: "作为“计数测量不可逆性”工作的后续研究，我们把时间箭头的重构从二时关联推广到多时关联的层级结构。更高阶关联能够揭示低阶观测中隐藏的不可逆性，并随着动力学信息增加逐步提高热力学推断能力。",
+    en: "We extend time-arrow reconstruction from two-time asymmetries to a hierarchy of multi-time correlations. Higher-order correlations reveal irreversibility hidden at lower orders and progressively sharpen thermodynamic inference.",
+    zh: "作为“计数测量不可逆性”工作的进一步结果，我们把时间箭头的重构从二时关联推广到多时关联的层级结构。更高阶关联能够揭示低阶观测中隐藏的不可逆性，并随着动力学信息增加逐步提高热力学推断能力。",
   },
 };
 
