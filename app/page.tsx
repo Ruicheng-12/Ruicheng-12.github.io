@@ -352,7 +352,7 @@ const copy = {
     phd: "Ph.D. program in Physics",
     phdMeta: "The University of Tokyo · Advisor: Prof. Sosuke Ito · Oct 2024–present",
     ms: "M.S. in Chemical Physics",
-    msMeta: "University of Science and Technology of China · 2024",
+    msMeta: "University of Science and Technology of China · Advisor: Prof. Zhonghuai Hou · 2024",
     bs: "B.S. in Chemistry",
     bsMeta: "University of Science and Technology of China · 2021",
     profileText:
